@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-css.css">
+    <title>Wolf projekt</title>
+    <link rel="icon" type="image/x-icon" href="IMG/ICON.ico">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="#">4EVERMUSIC</a></div>
+            <ul class="links">
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="servisy.html">Servisy</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="o_nás.html">O nás</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="servisy.html">Servisy</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="o_nás.html">O nás</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="hero-section">
+        <h1>O NÁS</h1> 
+    </div>
+    <main class = "section-container">
+        <div class = main-section>
+            <h1>Váš spolehlivý partner v hudebním průmyslu</h1>
+            <section class ="left-section">
+                <img src="IMG/o-nás1.jpg" alt="společná foto u obrazovek">
+                <div class="text">
+                    <p class="first">Na 4EVERMUSIC věříme, že hudba má sílu spojovat lidi a vytvářet nezapomenutelné příběhy. Jsme platforma zaměřená na propojení hudebních talentů a profesionálů, kteří hledají spolupráci na špičkové úrovni. Naší misí je usnadnit cestu od nápadu k hotovému dílu tím, že nabízíme prostor pro sdílení kontaktů, zkušeností a inspirace. Bez ohledu na to, zda jste skladatel, producent, nebo zpěvák, u nás najdete podporu a příležitosti, které vám pomohou růst.</p>
+                    <p class="last">Nabízíme nejen platformu, ale i zázemí, kde se můžete soustředit na to nejdůležitější – na tvorbu. Naše komunitní akce, workshopy a vzdělávací zdroje jsou navrženy tak, aby vám poskytly nástroje a dovednosti k dosažení vašich cílů. U 4EVERMUSIC je každá spolupráce krokem k novým možnostem.</p>
+                </div>
+            </section>
+        </div>
+        <div class = main-section>
+            <h1>Věříme v hodnotu spolupráce</h1>
+            <section class ="right-section">
+                <img src="IMG/o-nás2.jpg" alt="společná foto v studiu">
+                <div class="text">
+                    <p class="first">Hudební průmysl je dynamický a neustále se vyvíjí – a stejně tak i my. Na 4EVERMUSIC si zakládáme na transparentnosti, profesionalitě a vášni pro hudbu. Spojujeme ty, kteří sdílejí stejnou lásku k tvorbě, a pomáháme jim dosáhnout jejich cílů. Naše platforma není jen o hledání kontaktů, ale také o budování komunity, která sdílí hodnoty kvality a kreativity. Staňte se součástí příběhu, který píšeme společně.</p>
+                    <p class="last">Naši uživatelé oceňují nejen snadnost propojení, ale i podporu, kterou nabízíme při realizaci jejich vizí. Pomáháme vám překonávat výzvy hudebního průmyslu, ať už jde o technickou stránku projektů, nebo o inspiraci a networking. S 4EVERMUSIC je každý projekt krokem k vašemu dalšímu úspěchu.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("last-update").textContent = new Date().toLocaleDateString('cs-CZ');
+        });
+    </script>
+    <footer>
+        <p>Studijní projekt - TNPW1 zápočtový projekt</p>
+        <p>Obsah a některé obrázky byly vygenerovány pomocí ChatGPT.</p>
+        <p>Zbytek obrázku je z: https://pixabay.com/</p>
+        <p>Email: wolfan1@uhk.cz</p>
+        <p>©2024 Antonín Wolf</p>
+        <p>Poslední aktualizace: <span id="last-update"></span></p>
+    </footer>
+</body>
+</html>

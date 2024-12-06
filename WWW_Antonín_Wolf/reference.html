@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-css.css">
+    <title>Wolf projekt</title>
+    <link rel="icon" type="image/x-icon" href="IMG/ICON.ico">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="#">4EVERMUSIC</a></div>
+            <ul class="links">
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="servisy.html">Servisy</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="o_nás.html">O nás</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="servisy.html">Servisy</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="o_nás.html">O nás</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="hero-section">
+        <h1>REFERENCE</h1> 
+    </div>
+    <div class = "container">
+        <div class="box">
+            <img src="IMG/muž1.jpg" alt="Jan Novák">
+            <h2>Jan Novák</h2>
+            <p>Skvělá platforma, díky které jsem našel producenta pro svůj projekt během několika dní. Určitě doporučuji všem hudebníkům!</p>
+        </div>
+        <div class="box">
+            <img src="IMG/žena1.jpg" alt="Petra Malá">
+            <h2>Petra Malá</h2>
+            <p>4EVERMUSIC je přesně to, co jsem potřebovala – místo, kde se hudebníci mohou snadno propojit a tvořit skvělé věci.</p>
+        </div>
+        <div class="box">
+            <img src="IMG/muž2.jpg" alt="Tomáš Dvořák">
+            <h2>Tomáš Dvořák</h2>
+            <p>Díky této platformě jsem si našel talentovaného skladatele, který dokonale pochopil mou vizi. Super zkušenost!</p>
+        </div>
+        <div class="box">
+            <img src="IMG/žena2.jpg" alt="Lenka Procházková">
+            <h2>Lenka Procházková</h2>
+            <p>Přehledná stránka, skvělý servis a hlavně kvalitní profesionálové. Tohle je budoucnost hudebního průmyslu!</p>
+        </div>
+        <div class="box">
+            <img src="IMG/muž3.jpg" alt="Karel Horák">
+            <h2>Karel Horák</h2>
+            <p>Nikdy nebylo snazší najít spolehlivé hudební partnery. 4EVERMUSIC mi otevřelo dveře ke skvělým příležitostem.</p>
+        </div>
+        <div class="box">
+            <img src="IMG/žena3.jpg" alt="Alena Veselá">
+            <h2>Alena Veselá</h2>
+            <p>Platforma, která konečně myslí na propojení talentů v hudbě. Děkuji za všechny možnosti, které jste mi dali!</p>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("last-update").textContent = new Date().toLocaleDateString('cs-CZ');
+        });
+    </script>
+    <footer>
+        <p>Studijní projekt - TNPW1 zápočtový projekt</p>
+        <p>Obsah a některé obrázky byly vygenerovány pomocí ChatGPT.</p>
+        <p>Zbytek obrázku je z: https://pixabay.com/</p>
+        <p>Email: wolfan1@uhk.cz</p>
+        <p>©2024 Antonín Wolf</p>
+        <p>Poslední aktualizace: <span id="last-update"></span></p>
+    </footer>
+</body>
+</html>

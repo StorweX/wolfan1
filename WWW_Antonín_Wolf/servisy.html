@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-css.css">
+    <title>Wolf projekt</title>
+    <link rel="icon" type="image/x-icon" href="IMG/ICON.ico">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="#">4EVERMUSIC</a></div>
+            <ul class="links">
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="servisy.html">Servisy</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="o_nás.html">O nás</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="servisy.html">Servisy</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="o_nás.html">O nás</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="hero-section">
+        <h1>SERVISY</h1> 
+    </div>
+    <div class="photo-container">
+        <a href="IMG/music_producers.png" class="big-pic">
+            <div class="single-image-container">
+                <img src="IMG/music_producers_small.jpeg" alt="Hudební producenti ve studiu" class="small-pic">
+                <div class="overlay">
+                    <h2>Hudební producenti</h2>
+                    <p>Hudební producenti jsou základním článkem každého úspěšného projektu. Potřebujete vytvořit aranžmá nebo dodat skladbě profesionální nádech? Naši producenti mají zkušenosti s různými žánry a technologiemi, aby zajistili, že váš projekt bude odpovídat vaší vizi.</p>
+                </div>
+            </div>
+        </a>
+        <a href="IMG/mixing_engineer_in_a_studio.png" class="big-pic">
+            <div class="single-image-container">
+                <img src="IMG/mixing_engineer_in_a_studio_small.jpeg" alt="Míchací inženýr ve studiu" class="small-pic">
+                <div class="overlay">
+                    <h2>Míchací inženýři</h2>
+                    <p>Dokonalý mix je tím, co promění dobrou nahrávku ve špičkový zvukový zážitek. Míchací inženýři na naší platformě vám pomohou doladit každý detail skladby, od rovnováhy nástrojů až po čistotu vokálů, a zajistí, že vaše hudba zazáří v každém prostředí.</p>
+                </div>
+            </div>
+        </a>
+        <a href="IMG/session_songwriters_in_a_studio.png" class="big-pic">
+            <div class="single-image-container">
+                <img src="IMG/session_songwriters_in_a_studio_small.jpeg" alt="Textaři písní v kruhu" class="small-pic">
+                <div class="overlay">
+                    <h2>Textaři</h2>
+                    <p>Najít správná slova pro vaši hudbu může být výzvou, a právě zde přicházejí textaři. Ať už potřebujete emotivní baladu, energickou popovou skladbu, nebo text pro specifický žánr, profesionální textaři vám pomohou vystihnout přesně to, co chcete říci.</p>
+                </div>
+            </div>
+        </a>
+        <a href="IMG/singer_in_studio.png" class="big-pic">
+            <div class="single-image-container">
+                <img src="IMG/singer_in_studio_small.jpeg" alt="zpěvák v nahrávacím studiu" class="small-pic">
+                <div class="overlay">
+                    <h2>Zpěváci</h2>
+                    <p>Unikátní hlas může posunout skladbu na zcela novou úroveň. Zpěváci s různými styly a rozsahy, od sólových interpretů po doprovodné vokalisty, přinesou vašim skladbám potřebnou energii a emoce. Váš projekt tak získá autenticitu a profesionální zvuk.</p>
+                </div>
+            </div>
+        </a>
+        <a href="IMG/mastering_engineer.png" class="big-pic">
+            <div class="single-image-container">
+                <img src="IMG/mastering_engineer_small.jpeg" alt="Masteringový inženýr" class="small-pic">
+                <div class="overlay">
+                    <h2>Masteringoví inženýři</h2>
+                    <p>Mastering je posledním krokem k tomu, aby vaše hudba zněla skvěle na všech zařízeních a platformách. Naši masteringoví inženýři se postarají o vyvážení frekvencí, hlasitosti a dynamiky, čímž zajistí, že vaše skladby budou připravené pro komerční vydání.</p>
+                </div>
+            </div>
+        </a>
+        <a href="IMG/saxophone.png" class="big-pic">
+            <div class="single-image-container">
+                <img src="IMG/saxophone_small.jpeg" alt="hráč na saxofon" class="small-pic">
+                <div class="overlay">
+                    <h2>Hudebníci</h2>
+                    <p>Potřebujete nástrojový doprovod, který dodá vaší hudbě hloubku a charakter? Profesionální hudebníci v naší síti ovládají širokou škálu nástrojů a stylů, od klasiky po moderní experimentální žánry. Spolupráce s nimi vnese do vašich projektů nový rozměr.</p>
+                </div>
+            </div>
+        </a>
+
+
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("last-update").textContent = new Date().toLocaleDateString('cs-CZ');
+        });
+    </script>
+    <footer>
+        <p>Studijní projekt - TNPW1 zápočtový projekt</p>
+        <p>Obsah a některé obrázky byly vygenerovány pomocí ChatGPT.</p>
+        <p>Zbytek obrázku je z: https://pixabay.com/</p>
+        <p>Email: wolfan1@uhk.cz</p>
+        <p>©2024 Antonín Wolf</p>
+        <p>Poslední aktualizace: <span id="last-update"></span></p>
+    </footer>
+</body>
+</html>
